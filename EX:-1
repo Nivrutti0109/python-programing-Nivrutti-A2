@@ -1,0 +1,12 @@
+# Taking inputs of different data types
+name=input("Enter your name:")
+age=int(input("Enter your age:"))
+hight=float(input("Enter your hight:"))
+is_student=input("ARE you a student?(true/false):").lower()=="true"
+
+#Printing the inputs
+print("/nEntered Details")
+print("Name:",name)
+print("Age:",age)
+print("Hight:",hight)
+print("Is Student:",is_student)
